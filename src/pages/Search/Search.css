@@ -1,0 +1,17 @@
+.search {
+  display: flex;
+  margin: 15px 0;
+  align-items: center;
+  padding: 50px 150px;
+}
+.tabs{
+  padding: 0 250px ;
+}
+@media (max-width: 480px) {
+  .search{
+    padding: 0;
+  }
+  .tabs{
+    padding: 0;
+  }
+  }

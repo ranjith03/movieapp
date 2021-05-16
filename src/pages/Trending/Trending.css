@@ -1,0 +1,14 @@
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+@media (max-width: 480px) {
+.trending{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}

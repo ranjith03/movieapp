@@ -1,0 +1,106 @@
+
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("../../netflix-background-login.jpg")
+    center no-repeat;
+    background-size: cover;
+    
+}
+.loginScreen_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+}
+.loginScreen_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding: 20px;
+}
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+   
+}
+
+.loginScreen_body{
+    position: absolute;
+    z-index: 1;
+    color: #fff;  
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    
+}
+.loginScreen_body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+.loginScreen_body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginScreen_body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+.loginScreen_input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 32px;
+    border: none;
+    width: 400px;
+
+}
+.loginScreen_getStarted{
+    padding: 13px 20px 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+@media (max-width: 480px) {
+    
+    .loginScreen{
+        width: 100%;
+        
+    }
+    .loginScreen_input > form > input{
+        width: 250px;
+    }
+    .loginScreen_getStarted{
+    }
+    .loginScreen_body > h1{
+        font-size: 2rem;
+    }
+    .loginScreen_body > h2{
+        font-size: 1.3rem;
+    }
+    .loginScreen_body > h3{
+        font-size: 0.8rem;
+        padding-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  position: relative;
+  transition: transform 450ms;
+}
+
+.media:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 480px) {
+  .media {
+    width: 36%;
+  }
+}
+
+
